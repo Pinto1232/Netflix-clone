@@ -1,0 +1,20 @@
+//Command to use when deployment an app in the firebase//
+
+1 - firebase login
+2 - firebase init 
+3 - From the list select : Hosting: Configure and deploy...
+4 - Select: use an existing project 
+5 - Select your project from the list
+6 - On public directory write build
+7 - follow the steps and respond yes or ( On github put no) no
+
+8 - Bundle up the app and deploy it in the firebase 
+// This command is run when the above command is already done at first time
+9 - npm run build
+10 - firebase deploy
+
+
+// Apps to install to improve the development 
+
+1 - Redux devTools
+2 - React Developer Tools

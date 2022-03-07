@@ -1,0 +1,100 @@
+.row{
+    color: white;
+    margin-left: 4px;
+}
+
+.row__posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+/*This line of code will remove the scroll vertical*/
+.row__posters::-webkit-scrollbar {
+   display: none;
+}
+
+
+
+.row__poster {
+    max-height: 150px;
+    object-fit: contain;
+    margin-right: 10px;
+    width: 100%;
+    transition: transform 450ms;
+    -webkit-transition: transform 450ms;
+    -moz-transition: transform 450ms;
+    -ms-transition: transform 450ms;
+    -o-transition: transform 450ms;
+}
+
+.row__poster:hover {
+  transform: scale(1.08);
+  -webkit-transform: scale(1.08);
+  -moz-transform: scale(1.08);
+  -ms-transform: scale(1.08);
+  -o-transform: scale(1.08);
+  opacity: 1;
+}
+
+.row__posterLarge {
+    max-height: 250px;
+}
+
+.row__posterLarge {
+    transform: scale(1.09);
+    -webkit-transform: scale(1.09);
+    -moz-transform: scale(1.09);
+    -ms-transform: scale(1.09);
+    -o-transform: scale(1.09);
+    opacity: 1;
+}
+
+
+.description {
+    display: flex;
+}
+
+.media__type {
+    margin-left: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.row__overview {
+    color: white;
+    display: flex;
+}
+
+.movie__overview {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+/*This line of code will remove the scroll vertical*/
+.movie__overview::-webkit-scrollbar {
+    display: none;
+ }
+
+ span {
+     padding-left: 0px;
+     padding-right: 0px;
+     margin-left: 3.0rem;
+     position: relative;
+     
+ }
+
+ .movie__overview > span {
+     margin-top: -20px;
+     padding-top: 0rem;
+     border: none;
+     padding-left: 4rem;
+     padding-right: 4rem;
+     background-color: blue;
+ }
+ 
+
+ 
